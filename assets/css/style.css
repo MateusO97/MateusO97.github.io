@@ -587,7 +587,13 @@ section {
 .portfolio .portfolio-wrap img {
   width: 200px;
   height: 200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.portfolio .portfolio-wrap #saberes img {
+  width: 200px;
+  height: 100px !important;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -601,6 +607,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
